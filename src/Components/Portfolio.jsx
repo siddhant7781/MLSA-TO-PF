@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/code.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,27 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Zoom Clone",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+    "I have cloned the Zoom using React, Node, and Socket.io and MongoDB. The app enables two way communication with audio, video, and screen sharing.",
+    url: "https://github.com/siddhant7781/zoom-clone-node",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Contact Management App",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+     "I built a comprehensive contact management web application. The user interface (UI) is designed for ease of use and utilizes the templating. On the backend, I implemented a robust API using ExpressJS with a secure database (like MongoDb) and employed tools like Mongoose for seamless data management.",
+    url: "https://github.com/siddhant7781/contact-manager-app-using-nodejs-and-express-js",
   },
   {
-    title: "My Resume Site",
+    title: "Celestial Cruiser",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+    "My team built a space exploration itinerary app on the NASA Space App Challenge. We used Express, JavaScript, MongoDB, and Mongoose to develop the API. We utilized Flutter and packages for the UI.",
+    url: "https://github.com/siddhant7781/celestial_cruiser",
   },
   {
-    title: "GitHub Codespaces and github.dev",
-    description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+    title: "Mapty",
+    description:"This is the app that I made while I was learning backend, It helps to keep track of outdoor workouts (like cycling, and running) on a location basis using the map. As a back-end developer, I worked on setting up the map using geolocation API.",
+    url: "https://github.com/siddhant7781/Mapty-mark-your-workout",
   },
 ];
 

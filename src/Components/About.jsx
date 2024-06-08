@@ -16,27 +16,27 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/backgroundSidd.jpg";
 
-const imageAltText = "purple and blue abstract background";
+const imageAltText = "background of stairs";
 
 /**
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "They call me Sidd, the back-end guy. During the day, I tackle .JS and .TS, turning cryptic errors into victory dances. After hours, I wish to talk with .Py, making it perform amazing data and ML stuffs. If your project needs a touch of logic and AI magic, I'm your go-to. Just don't ask me to pick fonts and fix CSS —that's a whole different story! Cheers😉";
 
 /**
  * List of some of skills or technologies you work on, are learning,
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
-  "Graphic design",
+  "Backend Development",
+  "RESTFUL APIs",
+  "Microservices",
+  "content writing",
+  "Web hosting and deployment",
+
 ];
 
 /**
@@ -45,7 +45,8 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+"“The only way to do great work is to love what you do.” – Steve Jobs";
+// "They call me Sidd, the back-end guy. During the day, I tackle .JS and .TS, turning cryptic errors into victory dances. After hours, I wish to talk with .Py, making it perform amazing data and ML stuffs. If your project needs a touch of logic and AI magic, I'm your go-to. Just don't ask me to pick fonts and fix CSS —that's a whole different story! Cheers😉";
 
 const About = () => {
   return (
